@@ -1,4 +1,5 @@
-const program = require('commander');
+const { Command } = require('commander');
+const program = new Command();
 const axios = require('axios');
 const pckg = require('./package.json')
 const constants = require('./constants.json')
