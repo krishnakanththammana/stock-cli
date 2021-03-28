@@ -1,0 +1,27 @@
+{
+  "name": "stock-cli",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "bin": {
+    "stck": "./index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/krishnakanththammana/stock-cli.git"
+  },
+  "author": "krish",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/krishnakanththammana/stock-cli/issues"
+  },
+  "homepage": "https://github.com/krishnakanththammana/stock-cli#readme",
+  "dependencies": {
+    "axios": "^0.21.1",
+    "commander": "^7.2.0"
+  }
+}
